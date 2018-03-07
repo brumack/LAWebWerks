@@ -66,23 +66,7 @@ body {
   background-color: rgba(0,0,0,.6);
 }
 
-.headline {
-  font-size: 7rem;
-  color: white;
-  margin: 40vh 0 0 5vw;
-  padding-bottom: 0;
-  line-height: 4rem;
-}
-
-#dynamicsub {
-  font-size:4rem;
-  color: white;
-  margin: 0 0 0 5vw;
-  padding-top: 0;
-  display: inline-block;
-}
-
-#cursor {
-  display: inline;
-  visibility: hidden;
+.overlay h1 {
+  text-align: center;
+  margin-top: 40vh;
 }

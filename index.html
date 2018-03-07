@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Krona+One" rel="stylesheet">  </head>
   <body>
     <nav>
@@ -21,17 +21,16 @@
         <iframe src="https://www.youtube.com/embed/qAcY8OPEMhA?autoplay=1&controls=0&disablekb=1&modestbranding=0&mute=1" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="overlay">
-        <div class = "headline">
-          This is the headline.
-        </div>
-        <div id = "dynamicsub">
-          <p><span id = "subtext"></span><span id="cursor">&#10074;</span></p>
-        </div>
+        <h1>
+          <span class="typer" id="main" data-colors="white" data-delay="100" data-deleteDelay="3000"></span>
+          <span class="cursor"  data-owner="main"></span>
+        </h1>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-    <script src="./scripts.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/typer.js"></script>
   </body>
 </html>
