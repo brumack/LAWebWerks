@@ -1,0 +1,88 @@
+body {
+  overflow: hidden;
+}
+
+.navbar {
+  width: 100vw;
+  height: 8vh;
+  background-color: black;
+  z-index: 1;
+  padding: 20px;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  float: left;
+  padding: 20px;
+  color: lightgray;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 8px;
+  padding-bottom: 2px;
+  margin-bottom: 25px;
+}
+
+.navbar .focus {
+  border-bottom: 2px solid blue;
+  color: white;
+}
+
+.navbar ul li:hover {
+  color: blue;
+}
+
+.navbar .focus:hover {
+  color: white;
+}
+.wrapper {
+	position: absolute;
+  top: 0;
+  left: 0;
+	padding: 0;
+	height: 100vh;
+  z-index: 0;
+}
+.wrapper iframe {
+	position: absolute;
+  padding: 0;
+	top: 0;
+	left: -5vw;
+	width: 110vw;
+	height: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0,0,0,.6);
+}
+
+.headline {
+  font-size: 7rem;
+  color: white;
+  margin: 40vh 0 0 5vw;
+  padding-bottom: 0;
+  line-height: 4rem;
+}
+
+#dynamicsub {
+  font-size:4rem;
+  color: white;
+  margin: 0 0 0 5vw;
+  padding-top: 0;
+  display: inline-block;
+}
+
+#cursor {
+  display: inline;
+  visibility: hidden;
+}
