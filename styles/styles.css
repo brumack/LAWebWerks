@@ -51,8 +51,9 @@ body {
 }
 
 .background video {
-  height: 100vh;
+  height: 110vh;
 }
+
 .overlay {
   position: absolute;
   top: 0;
